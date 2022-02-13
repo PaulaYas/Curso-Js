@@ -1,32 +1,22 @@
-var diaEstaEnsolarado = true;
-var ehFinalDeSemana = true;
-diaEstaEnsolarado && ehFinalDeSemana;
-var vouPraPraia = diaEstaEnsolarado && ehFinalDeSemana;
+5 + 5;
+5 + 5 + 4;
+var salario = 3500;
+var aumento = 1000.5;
+salario + aumento;
+salario = salario + aumento;
 
-var diaEstaEnsolarado = true;
-var ehFinalDeSemana = false;
-diaEstaEnsolarado && ehFinalDeSemana;
+5 - 5;
+10 - 5 - 5;
 
-var diaEstaEnsolarado = false;
-var ehFinalDeSemana = true;
-diaEstaEnsolarado && ehFinalDeSemana;
- 
-var diaEstaEnsolarado = false
-var ehFinalDeSemana = false
-diaEstaEnsolarado && ehFinalDeSemana;
+5 * 5;
 
-var euTenhoGasolinaNoCarro = false;
-var euTenhoDinheiroParaAbastecer = true;
-euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer;
+8 / 2;
 
-var vouPraPraia = euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer;
+salario / 2;
 
-var euTenhoGasolinaNoCarro = true;
-var euTenhoDinheiroParaAbastecer = false;
+2 ** 3;
 
-var euTenhoGasolinaNoCarro = true;
-var euTenhoDinheiroParaAbastecer = true;
-
-var euTenhoGasolinaNoCarro = false;
-var euTenhoDinheiroParaAbastecer = false;
-console.log (euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer);
+10 % 2;
+5 % 2;
+9 % 3;
+console.log(9 % 3);
