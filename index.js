@@ -1,16 +1,32 @@
-var nomeEstudante = "Ana";
- nomeEstudante = "ana"
+var diaEstaEnsolarado = true;
+var ehFinalDeSemana = true;
+diaEstaEnsolarado && ehFinalDeSemana;
+var vouPraPraia = diaEstaEnsolarado && ehFinalDeSemana;
 
- var aprovada = true;
+var diaEstaEnsolarado = true;
+var ehFinalDeSemana = false;
+diaEstaEnsolarado && ehFinalDeSemana;
 
- var hub = "Belo Horizonte";
+var diaEstaEnsolarado = false;
+var ehFinalDeSemana = true;
+diaEstaEnsolarado && ehFinalDeSemana;
+ 
+var diaEstaEnsolarado = false
+var ehFinalDeSemana = false
+diaEstaEnsolarado && ehFinalDeSemana;
 
- var turma = 1
+var euTenhoGasolinaNoCarro = false;
+var euTenhoDinheiroParaAbastecer = true;
+euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer;
 
- var turmaHub = "turma 1 Belo horizonte"
+var vouPraPraia = euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer;
 
- var salario = 3500.70
+var euTenhoGasolinaNoCarro = true;
+var euTenhoDinheiroParaAbastecer = false;
 
- typeof "ana";
+var euTenhoGasolinaNoCarro = true;
+var euTenhoDinheiroParaAbastecer = true;
 
-console.log(typeof(salario));
+var euTenhoGasolinaNoCarro = false;
+var euTenhoDinheiroParaAbastecer = false;
+console.log (euTenhoGasolinaNoCarro || euTenhoDinheiroParaAbastecer);
