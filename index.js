@@ -1,22 +1,19 @@
-5 + 5;
-5 + 5 + 4;
-var salario = 3500;
-var aumento = 1000.5;
-salario + aumento;
-salario = salario + aumento;
+2 > 1;
+2 > 3;
+2 >= 2;
+2 >= 3;
+10 < 100;
+5 <= -1;
 
-5 - 5;
-10 - 5 - 5;
+10 === 10;
+10 === 20;
+10 !== 10;
+10 !== 20;
 
-5 * 5;
+var notaDaPaula = 125
+var joanaPassouNoDesafio = notaDaPaula >= 100;
 
-8 / 2;
+var notaDaPaola = 95
+var paolaPassouNoDesafio = notaDaPaola >= 100;
 
-salario / 2;
-
-2 ** 3;
-
-10 % 2;
-5 % 2;
-9 % 3;
-console.log(9 % 3);
+console.log(paolaPassouNoDesafio);
