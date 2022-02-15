@@ -12,4 +12,8 @@ listaDeNomes.length;
  coresDaBandeira[2];
  coresDaBandeira[1];
 coresDaBandeira[coresDaBandeira.length - 1];
-console.log(coresDaBandeira[coresDaBandeira.length - 1]);
+//console.log(coresDaBandeira[coresDaBandeira.length - 1]);
+
+for(let i = 0; i < coresDaBandeira.length; i++){
+    console.log("cor: " + coresDaBandeira[i]);
+}
