@@ -1,19 +1,16 @@
-var listaDeNomes = ["Paula", "Rebeca", "Luana", "Bruna", "Vitoria"];
-listaDeNomes[0];
-listaDeNomes.push("Debora");
-listaDeNomes.length;
- var tamanhoDaListaDeNomes = listaDeNomes;
+var primeiroNome = "Paula";
+var ultimoNome = "De Paula";
+var nomeCompleto = primeiroNome + " " + ultimoNome;
 
- var coresDaBandeira = ["Verde", "Amarelo", "Branco"];
+var mensagem = "Vem pra trybe!"
+mensagem.length
+mensagem[2]
+mensagem[mensagem.length - 1]; 
 
- coresDaBandeira.length;
-
- coresDaBandeira[0];
- coresDaBandeira[2];
- coresDaBandeira[1];
-coresDaBandeira[coresDaBandeira.length - 1];
-//console.log(coresDaBandeira[coresDaBandeira.length - 1]);
-
-for(let i = 0; i < coresDaBandeira.length; i++){
-    console.log("cor: " + coresDaBandeira[i]);
-}
+var mes = "Agosto";
+mes.length
+mes[0];
+mes[1];
+mes[2];
+mes[0] + mes[1] + mes[2];
+console.log(mes[0] + mes[1] + mes[2]);
